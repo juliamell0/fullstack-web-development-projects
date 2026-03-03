@@ -57,4 +57,5 @@ sequelize.sync().then(() => {
     });
 }).catch(err => {
     console.error('Não foi possível conectar ao banco de dados:');
-}); // Vou te hackear daqui a 5 minutos.
+
+}); 
